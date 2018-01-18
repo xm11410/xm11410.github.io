@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zyq</title>
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+<!--[if lt IE 9]> 
+			<style>
+				.rw-wrapper{ display: none; } 
+				.rw-sentence-IE{ display: block;  }
+			</style>
+	<![endif]-->
+</head>
+<body ">
+<div class="container topbottom">
+  <div class="row-fluid">
+    <div class="span5"> <img src="img/1.jpg" alt="Profile Avatar" class="avatar">
+      <div class="navigation">
+        <div>
+          <ul>
+            <img src="img/about-icon.png">
+                <a href="index.html">关于我</a>
+              </li>
+              <li>
+                <img src="img/1.png">
+                <a href="portfolio.html">爱篮球</a>
+              </li>
+              <li>
+                <img src="img/2.png">
+                <a href="follow.html">爱健身</a>
+              </li>
+              <li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="span7 homeabout">
+      <div class="person"> <span class="name">爱篮球</span> </div>
+      <div class="desciption">
+        <p class="font16">运动使我快乐！</p>
+      </div>
+      <div id="portfolio" class="white">
+        <ul id="portfolio-filter">
+          <li><a href="#" class="current" data-filter="*">总冠军</a></li>
+        </ul>
+        <ul id="portfolio-list">
+          <li class="illustration print">
+            <div class="flip-container">
+              <div class="flipper"><a href="img/portfolio/1999.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/c1.jpg" alt=""> </div>
+                <div class="back">
+                  <h4>1999总冠军</h4>
+                </div>
+                
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="webdesign">
+            <div class="flip-container">
+              <div class="flipper">
+              
+              <a  href="img/portfolio/2003.jpg"  rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/c2.jpg" alt="" >  </div>
+                <div class="back">
+                  <h4>2003总冠军</h4>
+                </div>
+              </a>  
+              </div>
+            </div>
+          </li>
+          <li class="photoghraphy">
+            <div class="flip-container">
+              <div class="flipper">
+              
+              <a  href="img/portfolio/2007.jpg"  rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/c3.jpg" alt="" > </div>
+                <div class="back">
+                  <h4>2007总冠军</h4>
+                </div>
+              </a> 
+                
+              </div>
+            </div>
+          </li>
+          <li class="animation print">
+            <div class="flip-container">
+                <div class="flipper">
+                <a href="img/portfolio/2005.jpg" rel="portfolio" class="folio">
+                    <div class="front">
+                    	 <img src="img/portfolio/c4.jpg" alt="" />
+                    </div>
+                     <div class="back">
+                      <h4>2005总冠军</h4>
+                      
+                    </div>
+                    
+                 </a>   
+                    
+               </div>
+           </div>
+            </li>
+          <li class="animation">
+            <div class="flip-container">
+              <div class="flipper">
+                <a href="img/portfolio/2014.jpg" rel="portfolio" class="folio">
+                <div class="front"> <img src="img/portfolio/c5.jpg" alt="" >  </div>
+                <div class="back">
+                  <h4>2014总冠军</h4>
+                
+                </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="webdesign print">
+            <div class="flip-container">
+              <div class="flipper">
+                <a href="img/portfolio/logo.jpg" rel="portfolio" class="folio">
+                <div class="front">  <img src="img/portfolio/logo-1.jpg" alt="" >  </div>
+                <div class="back">
+                  <h4>马刺队logo</h4>
+                </div>
+                </a>
+                
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/modernizr.js"></script> 
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script> 
+<script src="js/custom.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	$(document).ready(function(){		
+		$('.flip-container').hover(function(){				
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
+	});
+</script>
+  
+</body>
+</html>
